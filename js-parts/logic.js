@@ -140,7 +140,9 @@ createListButton.addEventListener("click", () => {
 
   listsCategories.push(newList);
   saveData();
+
   drawLists();
+  showFilterSelect();
   setActiveList(newList.id);
 });
 
