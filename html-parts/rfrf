@@ -1,0 +1,8 @@
+<li>
+  <button <!-- data-id="${categorie.id}" -->
+    class="button-list-item text-sm cursor-pointer font-semibold text-gray-700"
+    > ${categorie.title}
+  </button>
+</li>
+
+<input type="text" placeholder="Enter list name" />

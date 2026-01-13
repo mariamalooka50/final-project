@@ -1,0 +1,40 @@
+<div class="bg-gray-100 p-4 w-1/5 flex gap-5 flex-col rounded-lg h-full">
+  <div class="flex justify-between items-center">
+    <h2 class="text-lg font-bold text-gray-600">Menu</h2>
+  </div>
+  <div class="flex gap-1 p-1 border-1 border-gray-300 rounded-md items-center">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="h-4 w-4 flex-shrink-0 text-gray-400"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+      />
+    </svg>
+    <input
+      id="search-list-name"
+      type="text"
+      class="focus:outline-none flex-grow placeholder:text-sm items-center text-gray-500"
+      placeholder="Search"
+    />
+  </div>
+
+  <div class="flex gap-3 justify-start p-2 flex-col">
+    <h3 class="text-2xl text-gray-600 p-1 rounded-md text-left font-bold">
+      Lists:
+    </h3>
+    <ul id="list-categories" class="flex flex-col gap-2"></ul>
+  </div>
+  <button
+    id="create-list"
+    class="flex justify-center mt-auto bg-lime-900 items-end text-sm p-1 m-2 transition-transform duration-300 hover:scale-105 active:scale-90 rounded-lg text-white cursor-pointer"
+  >
+    New List +
+  </button>
+</div>

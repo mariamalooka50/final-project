@@ -1,0 +1,29 @@
+<div class="flex flex-col gap-5 w-full">
+  <div class="flex justify-between">
+    <h1 id="wall-title" class="text-4xl font-bold text-gray-600 p-4">
+      Sticky Wall
+    </h1>
+
+    <div class="flex gap-2 p-4">
+      <select
+        id="filter-select"
+        class="rounded p-1 text-sm border border-gray-300 text-gray-500 outline-none"
+      >
+        <option value="all">All</option>
+        <option value="done">Done</option>
+        <option value="not-done">Not done</option>
+      </select>
+
+      <button
+        id="create-task"
+        class="cursor-pointer transition-transform duration-300 active:scale-95 ease-out text-white text-lg hover:scale-105 flex items-center justify-center bg-lime-900 rounded-xl shadow-xl px-3"
+      >
+        New task +
+      </button>
+    </div>
+  </div>
+
+  <div id="list-items" class="grid grid-cols-3 gap-5 flex-wrap p-4">
+    <img src="/img/animal-domestic-orangoutang2-svgrepo-com (1).svg" />
+  </div>
+</div>

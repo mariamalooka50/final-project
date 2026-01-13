@@ -1,0 +1,6 @@
+{
+  "livePreview.defaultPreviewPath": "/html-parts/index.html",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}
