@@ -246,7 +246,7 @@ const drawItems = (notes) => {
         return;
       }
 
-      currentCategorie.notes.pop(currNoteIndex);
+      currentCategorie.notes.splice(currNoteIndex, 1);
       saveData();
       drawItems(currentCategorie.notes);
     });
